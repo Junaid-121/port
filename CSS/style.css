@@ -1,0 +1,459 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+    transition: all.2s linear;
+    text-decoration: none;
+    border: none;
+}
+
+.body header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.body header .navbar .container-fluid .navbar-brand img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+/* first */
+
+
+.body #first {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    margin: 6%;
+    padding: 10px;
+    background: rgb(209, 170, 96);
+    background: linear-gradient(135deg, rgb(0, 153, 255), black);
+
+
+}
+
+.body #first form {}
+
+.body #first p {
+    font-size: 26px;
+    font-weight: bolder;
+}
+
+.body #first a {
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    font-size: 17px;
+    font-weight: bolder;
+    transition: 1.1s ease-in-out;
+    -webkit-transition: 1.1s ease-in-out;
+    -moz-transition: 1.1s ease-in-out;
+    -ms-transition: 1.1s ease-in-out;
+    -o-transition: 1.1s ease-in-out;
+}
+
+.body #first a:hover {
+    background-color: green;
+    color: whitesmoke;
+}
+
+.body #first h1 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+
+html {
+    overflow-x: hidden;
+    scroll-padding-top: 7em;
+    scroll-behavior: smooth;
+}
+
+.body {
+    position: relative;
+}
+
+/* header{
+    z-index: 20;
+    display: flex; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 8%;
+    box-shadow: 0 0 10px 0 rgb(0, 0, 0, 0.2);
+} */
+
+
+
+.body #home {
+    margin-top: 50px;
+    height: calc(100vh - 50px);
+    padding: 0 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    margin: 6%;
+    background: linear-gradient(360deg, darkorange, rgb(172, 172, 255));
+}
+
+/* scollbar css */
+::-webkit-scrollbar {
+    width: 9%;
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: darkorange;
+
+}
+
+
+.body #home .left {
+    width: 40%;
+}
+
+
+#home .right p {
+    margin-bottom: 30px;
+    color: #999;
+    font-size: 13px;
+}
+
+
+#home .right {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.body #home .left img {
+    width: 150px;
+    width: 200px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    padding: 5%;
+}
+
+.body #skills {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.body .section_title {
+    text-transform: capitalize;
+    position: relative;
+    font-size: 25px;
+}
+
+.body .section_title:before {
+    position: absolute;
+    left: 10px;
+    bottom: 0;
+    content: "";
+    background-color: darkorange;
+    width: 100%;
+    height: 5px;
+    border-radius: 6px;
+}
+
+.body .section_title::after {
+    position: absolute;
+    top: 0;
+    left: -10px;
+    content: "";
+    background-color: darkorange;
+    width: 100%;
+    height: 5px;
+    border-radius: 6px;
+}
+
+.body #skills .images {
+    margin: 10% auto;
+    padding: 0 8%;
+}
+
+.body #skills .images ul {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.body #skills .images li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2.665%;
+    transition: 0.5s;
+    height: 300px;
+    width: 28%;
+}
+
+.body header .navbar .container-fluid #navbarSupportedContent li a {
+    color: #000;
+    text-align: center;
+    transition: 1.2s ease;
+    -webkit-transition: 1.2s ease;
+    -moz-transition: 1.2s ease;
+    -ms-transition: 1.2s ease;
+    -o-transition: 1.2s ease;
+    font-weight: bolder;
+    margin: 1.1%;
+}
+
+.body header .navbar .container-fluid #navbarSupportedContent li a:hover {
+    color: darkorange;
+
+}
+
+.body #skills .images li div {
+    width: 100%;
+    height: 60%;
+    margin-bottom: 5px;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.4);
+
+}
+
+.body #skills .images li div img {
+    height: 100%;
+    width: 100%;
+}
+
+.body #skills .images li:hover {
+    transform: scale(1.1);
+    margin: 20px;
+
+}
+
+.body #skills .images li span {
+    color: #000;
+    font-size: 18px;
+
+}
+
+.body #skills li span.prix {
+    color: darkorange;
+    font-weight: bold;
+    margin-bottom: 10px;
+
+}
+
+.body #skills li a {
+    background-color: darkorange;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 15px;
+}
+
+/* Projets */
+.body #projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.body #projects .list_projects {
+    margin: 100px 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.body #projects .list_projects .project {
+    width: 25%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.4);
+    padding: 10px;
+    margin: 20px;
+
+}
+
+.body #projects .list_projects .project ion-icon {
+    font-optical-sizing: 25px;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: darkorange; */
+    color: #eb2c9b;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.body #projects .list_projects .project h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.body #projects .list_projects .project p {
+    font-size: 12px;
+}
+
+.body #projects .list_projects .project a {
+    margin-top: 10px;
+    color: darkorange;
+    padding: 5px;
+    border: 1px solid darkorange;
+    font-size: 12px;
+    text-decoration: none;
+    transition: 1s ease-in-out;
+    background: linear-gradient(130deg, green, yellow, black);
+    -webkit-transition: 1s ease-in-out;
+    -moz-transition: 1s ease-in-out;
+    -ms-transition: 1s ease-in-out;
+    -o-transition: 1s ease-in-out;
+}
+
+.body #projects .list_projects .project a:hover {
+    background: linear-gradient(100deg, orange, royalblue, black);
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+#contact {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 12%;
+}
+
+.localisation_contact_div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 100px 0;
+    height: 80vh;
+}
+
+.localisation_contact_div .form_contact {
+    width: 40%;
+    height: 100%;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 2);
+    padding: 15px;
+    margin: 0 2%;
+    border-radius: 6px;
+
+}
+
+.localisation_contact_div h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.localisation_contact_div .form_contact form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+
+
+}
+
+.form_contact form input,
+textarea {
+    border: 3px solid #ccc;
+    width: 100%;
+    margin-bottom: 5px;
+    padding: 5px;
+    outline: 0;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+.form_contact form button {
+    margin-bottom: 0;
+    background-color: darkorange;
+    color: #fff;
+    border: 0;
+    width: 100%;
+    height: 35px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.body #bas {
+    height: 20vh;
+    text-align: center;
+}
+
+.body #bas a ion-icon {
+    color: orange;
+    font-size: 5em;
+    font-weight: bolder;
+}
+
+.body #bas a ion-icon:hover {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+footer {
+    background-color: #999;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    height: 70px;
+}
+
+footer span {
+    font-size: 18px;
+    font-weight: bolder;
+    color: darkorange;
+}
+
+footer a {
+    color: darkorchid;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+
+}
