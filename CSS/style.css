@@ -9,7 +9,7 @@
 }
 
 .body header {
-    position: fixed;
+    /* position: fixed; */
     top: 0;
     width: 100%;
 }
@@ -41,7 +41,6 @@
 
 }
 
-.body #first form {}
 
 .body #first p {
     font-size: 26px;
@@ -435,6 +434,55 @@ textarea {
     -ms-transform: scale(1.1);
     -o-transform: scale(1.1);
 }
+
+@media (max-width:697px) {
+    html {
+        width: 100%;
+    }
+    .body #home {
+        margin-top: 50px;
+        height: calc(100vh - 50px);
+        padding: 0 8%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        position: relative;
+        background: linear-gradient(360deg, darkorange, rgb(172, 172, 255));
+    }
+    .body #home .left {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+    }
+
+    .body #projects {
+        display: block;
+        width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+    .body #projects .list_projects {
+        display: block;
+        width: 100%;
+        
+    }
+    .body #projects .list_projects .project {
+        width: 100%;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        box-shadow: 0 0 10px rgb(0, 0, 0, 0.4);
+        padding: 10px;
+        /* margin: 20px; */
+    
+    }
+    
+} 
+
 
 footer {
     background-color: #999;
