@@ -431,6 +431,20 @@ textarea {
     .body .projects .list_projects {
         display: block;
         margin: 2%;
+        width: 100%;
+    }
+
+    .body .projects .list_projects .project {
+        width: 100%;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        box-shadow: 0 0 10px rgb(0, 0, 0, 0.4);
+        padding: 10px;
+        margin: 20px;
+    
     }
 
     .localisation{
